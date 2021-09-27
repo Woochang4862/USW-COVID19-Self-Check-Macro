@@ -1,7 +1,7 @@
 # USW-COVID19-Self-Check-Macro
 ## Structure
-> main.py
+> main.py\n
 > include `macro` method
 
-> log/
+> log/\n
 > include log files day by day. `yyyy-MM-dd.log`

@@ -107,9 +107,12 @@ def macro(driver, no, pw, name):
 if __name__ == "__main__":
     try:
         driver = setup_driver()
-        no = "21016082"
-        pw = "asdf07)^@@"
-        name = "정우창"
+        with open("info.txt","rt", encoding='UTF8') as f:
+            lines = f.readlines()
+            no = lines[0].strip()
+            pw = lines[1].strip()
+            name = lines[2].strip()
+            f.close()
         macro(driver, no, pw, name)
         for window_handle in driver.window_handles:
             driver.switch_to.window(window_handle)

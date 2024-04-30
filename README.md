@@ -8,6 +8,11 @@
 > > pw : portal password
 > > 
 > > name : student name
+> >
+> > ex :
+> > > 21xxxxxx
+> > > 1234
+> > > woochang
 ## Structure
 > main.py : include `macro` method
 > 
